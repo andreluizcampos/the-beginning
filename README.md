@@ -1,0 +1,1 @@
+Este repositório registra meus primeiros passos no aprendizado da lógica de programação, a linguagem utilizada será predominantemente C, os projetos apresentam caráter básico pois condiz com o nível de seu elaborador, apresentando, no entanto, constantes melhorias e adaptações ao decorrer do tempo.
