@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="ui.css"/>
+   <title> formulário de inscrição</title> 
+ </head>   
+ <body>
+<h1> 
+  PREENCHA COM SUAS INFORMAÇÕES PESSOAIS:
+</h1>
+<fieldset> 
+  <legend>DADOS PESSOAIS:</legend>
+<form action="obrigado/jaja.html" method="GET" enctype="multipart/form-data">
+<label>
+ Digite seu nome:
+ <input type="text" name="nome" value="" required>
+</br></br>
+ Digite seu sobrenome:
+ <input type="text" name="sobrenome" value="">
+</br></br>
+Digite seu CPF:
+<input type="text"   required   placeholder="000.000.000-00" name="CPF" value="">
+</br></br>
+Digite seu melhor email:
+<input type="email" name="email"       required          value="">
+</br></br>
+Digite sua idade:
+<input type="number" min="18"         required       name="idade" value="">
+</br></br>
+Selecione seu gênero:
+</br></br>
+Masculino:
+<input type="radio" name="gen"      value=""> 
+Feminino:
+<input type="radio" name="gen" value="">
+Outro:
+<input type="radio" name="gen"   value="">
+</label>
+</br>
+</form>
+</fieldset>
+<fieldset>   <legend> PREFERÊNCIAS ARTÍSTICAS:</legend>
+<form enctype="multipart/form-data" action="obrigado/ju.html" method="GET">
+ <label>
+ Descreva um pouco de seus gostos e preferências artísticas
+</br> </br>
+ <textarea>
+</textarea>
+</br> </br>
+Qual produto mais te atrai?
+<select>
+  <option>             </option>
+<option> Esculturas </option>
+<option>  Quadros  </option>
+<option>   Biscuit   </option>
+<option>   Porcelana  </option> 
+<option>   Tapeçaria </option>
+</select>
+</br></br>
+Coloque uma foto do seu PET:
+</br> </br>
+<input type="file" accpet="image/*" name="picture"  value="">
+</br></br>
+<input type="button" value="Enviar" name="bb">
+ </label>
+</form>
+</fieldset>
+</body>
+</html>
