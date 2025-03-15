@@ -1,0 +1,39 @@
+orm{
+    display: block;
+}
+fieldset{
+    display: block;
+    padding: 10px;
+    border: black solid 3px;
+    background-color:orange;
+    margin-bottom:30px;
+}
+legend{
+background-color:orange;
+padding:10px;
+border:3px black solid;
+}
+input
+{
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+textarea{
+width:250px;
+height:100px;
+}
+label{
+font-size:15px;
+font-family: Arial, Helvetica, sans-serif;
+padding:0px;
+}
+input[type="button"]
+{
+    margin-left:600px;
+    border:solid black 3px;
+    width:200px;
+    height:60px}
+
+    input[type="button"]:hover{
+    background-color: gray
+    }
